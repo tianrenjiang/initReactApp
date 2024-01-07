@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    justify-content: center;
+
+
+    .video-title {
+        margin-top: 30px;
+        font-size: 40px;
+    }
+
+    .video-container {
+        width:1200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        .video-player {
+            width: 800px;
+            height: 600px;
+        }
+        .video-description{
+            margin-top: 15px;
+
+        }
+
+    }
+    .recent-views{
+        margin-top: 30px;
+        display: flex;
+        margin-right: 80%;
+
+    }
+}
